@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.Header {
+    background-color: #212529;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 15rem;
+
+}
+
+.Header .NavBar {
+    margin-right: 4rem;
+}
+
+.Header .NavBar a {
+    color: #fff;
+    margin-left: 3rem;
+}
+.HomePage {
+    background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 200px 0;
+}
+
+.HomePage {
+    color: #fff;
+    text-align: center;
+    align-items: center;
+
+}
+
+.HomePage .Slogan i {
+    font-size: 36px;
+}
+
+.HomePage .Slogan h1 {
+    font-size: 72px;
+    padding-bottom: 50px;
+}
+
+.HomePage .Button a {
+    background-color: #FFC800;
+    padding: 20px 40px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.HomePage .Button a:hover {
+    transition: 0.5s;
+    padding: 20px 60px;
+}
+
+.Services .Slogan {
+    padding: 100px 0;
+    color: #212529;
+    text-align: center;
+}
+.Services .Slogan h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.Services .Slogan i {
+    font-size: 16px;
+}
+
+.Services .Menu {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 5rem;
+}
+.Services .Menu .MenuBox {
+    text-align: center;
+    float: right;
+    width: 20%;
+    margin: auto;
+
+}
+
+.Services .Menu .Logo h1 {
+    width: 60%;
+    margin: auto;
+    padding: 70px;
+    border-radius: 50%;
+    background-color: #FFC800;
+    margin-bottom: 20px;
+}
+
+.Menu .MenuBox h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.Portfoilo {
+    background-color: #f8f9fa;
+    overflow: auto;
+    padding: 10rem;
+    text-align: center;
+}
+
+.Portfoilo .Slogan h1{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.Portfoilo .All-Box .Box img {
+    width: 100%;
+
+}
+
+.Portfoilo .All-Box {
+    width: 80%;
+    margin: auto;
+}
+
+.Portfoilo .All-Box .Box {
+    text-align: center;
+    width: 33%;
+    float: left;
+    padding: 20px 10px;
+    margin: auto;
+}
+
+.Portfoilo .All-Box .info{
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.Portfoilo .All-Box .Box:hover{
+    transition: 0.5s;
+    transform: translateY(-20px);
+    overflow: auto;
+}
+
+
